@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=robots content=index,follow>
+    <meta name=googlebot content=index>
+    <meta name=”description” content="The everything portfolio of Adrian Sane. Like and follow. Hire me.">
+    <meta name=author content="Adrian Velazquez">
+    <meta name=copyright content="Adrian Velazquez">
+    <meta name=keywords content="adrian, velazquez, adrian velazquez, sane, adrian sane, web, developer, web developer, development, coder, ny, nyc, new york, interactive, design, designer, animate, animator, animation">
+    <title>Sample work by: Adrian Velazquez</title>
+    <style media="screen">
+      html, body, div, h3, h4, h5, li, section, aside {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 1em;
+      font: inherit;
+      line-height: 1.5;
+      color: rgba(0,0,0,0.54);
+      }
+      body{
+      min-width: 100%;
+      min-height: 100%;
+      position: relative;
+      }
+      .padding{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      }
+      .center{
+      width: 50%;
+      margin:0 auto;
+      }
+      #skills{
+      text-align: center;
+      width: 75%;
+      }
+      #skills h4{
+      font-size: 1.1em;
+      }
+      #sets{
+      height: 255px;
+      font-size: .75em;
+      }
+      #sets h5{
+      color: #fff;
+      margin: 10px;
+      }
+      #sets:hover{
+      cursor: pointer;
+      }
+      #dev, #des{
+      background-image: url("Mad_Skills.png");
+      width:50%;
+      height: 305px;
+      float:left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      }
+      .set{
+      width: 20%;
+      height: 35px;
+      margin: 20px 13px 0 13px;
+      background-color: #ff5252;
+      float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="center padding" id="skills">
+      <h3>MAD SKILLS</h3>
+      <p>
+        I'm Junior, Front-end, Interactive Developer who's designed and developed Ad Banners, Landing Pages, Blogs, and E-Commerce Sites using technologies such as HTML5, CSS3, Javascript, JS Frameworks, (jQuery, Greensock, etc.), Bootstrap, Wordpress and others. My strengths lay in Front-end development and translating pixel perfect designs into fully functional web assets using Adobe Creative software. I also have some (College level), Back-end exposure including; PHP, MySQL, MAMP and Python. Hover over the tabs below to see where my strenghts and weaknesses are.
+      </p>
+      <aside class="padding" id="sets">
+        <div id="dev">
+          <h4>Development</h4>
+            <div class="set" id="dev1">
+              <h5>HTML</h5>
+            </div>
+            <div class="set" id="dev2">
+              <h5>CSS</h5>
+            </div>
+            <div class="set" id="dev3">
+              <h5>JAVASCRIPT</h5>
+            </div>
+            <div class="set" id="dev4">
+              <h5>WORDPRESS</h5>
+            </div>
+        </div><!-- /#dev -->
+        <div id="des">
+          <h4>Design</h4>
+            <div class="set" id="des1">
+              <h5>PHOTOSHOP</h5>
+            </div>
+            <div class="set" id="des2">
+              <h5>ILLUSTRATOR</h5>
+            </div>
+            <div class="set" id="des3">
+              <h5>ANIMATION</h5>
+            </div>
+            <div class="set" id="des4">
+              <h5>PHOTOGRAPHY</h5>
+            </div>
+        </div><!-- /#des -->
+      </aside><!-- /#sets-->
+    </section><!-- /#skills-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+
+     // html
+     $("#dev1").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:230, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // css
+     $("#dev2").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:230, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // javascript
+     $("#dev3").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:180, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // wordpress
+     $("#dev4").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:195, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // photoshop
+     $("#des1").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:240, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // illustrator
+     $("#des2").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:180, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // animation
+     $("#des3").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:215, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+
+     // photography
+     $("#des4").hover(function(){// mouseover
+       TweenMax.to(this, 1, {height:180, ease: Expo.easeOut});
+     },
+     function(){// mouseout
+       TweenMax.to(this, 1, {height:35, ease: Expo.easeOut});
+     });
+   });// end on-ready function
+    </script>
+  </body>
+</html>
